@@ -1,0 +1,20 @@
+.nav-wrapper ul {
+    margin-right: 35%;
+    font-weight: bold;
+}
+
+.nav-wrapper a {
+    font-size: 18px;
+}
+
+#form {
+    width: 50%; 
+    margin-top: 10%
+}
+
+#user-form-title {
+    font-weight: bold;
+    font-size: 300%; 
+    text-align: center; 
+    margin-right: 2%;
+}

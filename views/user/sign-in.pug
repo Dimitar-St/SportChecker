@@ -1,0 +1,14 @@
+extends ../shared/_layout
+
+block content 
+    p#user-form-title Sign In
+    .row#form
+      form.col.s12
+        .row
+          .input-field.col.s12
+            input#username.validate(type="text")
+            label(for="username") Username
+        .row
+          .input-field.col.s12
+            input#password.validate(type="password")
+            label(for="password") Password
